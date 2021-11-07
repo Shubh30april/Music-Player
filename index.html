@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Music Player</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+</head>
+
+<body class="abc">
+  <h2>Music Player</h2>
+  <div class="music-container">
+    <div class="music-info">
+      <h4 id="title">Ranjha</h4>
+
+    <div class="progress-container">
+      <div class="progress" >
+      </div>
+    </div></div>
+    <audio src="songs/Ranjha.mp3" id='audio'></audio>
+    <div class="img-container">
+      <img src="images/Ranjha.png" alt="music-cover" id="cover">
+    </div>
+    <div class="navigation">
+      <button type="button" class="action-btn" id="prev" name="button"><span class="glyphicon glyphicon-backward"></span>
+
+      </button>
+      <button type="button" class="action-btn action-btn-big" id="play" name="button"><span class="glyphicon glyphicon-play"></span>
+
+      </button>
+      <button type="button" class="action-btn" id="next" name="button"><span class="glyphicon glyphicon-forward"></span>
+
+      </button>
+    </div>
+  </div>
+<script type="text/javascript" src="script.js">
+
+</script>
+</body>
+
+</html>
